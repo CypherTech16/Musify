@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!-- Kushal Patel. -->
+<html lang=""en">
+<head>
+<meta charset = "UTF-8">
+<title>Genres </title>
+<link rel="stylesheet" type="text/css" href="./webcss/webcss.css">
+<script type = "text/javascript" src = "./js/webjs.js"></script>
+</head>    
+<body onload="showDate()">
+
+    <h1>Forms</h1>
+    <div class="navflexcontainer">
+        <div class="navflexitem"><a href="Index.html">Home</a></div>
+        <div class="navflexitem"> <a href="genre.html">Genre</a></div>
+        <div class="navflexitem"><a href="tables.html">Tables</a></div>
+        <div class="navflexitem"><a href="images.html">Images</a></div>
+        <div class="navflexitem"><a href="forms.html">Forms</a></div>
+        <div class="extra_space">&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="navflexitem">
+            <a target="_blank" href="https://twitter.com/">
+            <img src="./imgs/img11.webp" height="20" width="20" alt="twitter">
+            </a>
+        </div>
+        <div class="navflexitem">
+            <a target="_blank" href="https://www.facebook.com/">
+                <img src="./imgs/img12.png" height="20" width="20" alt="facebook">
+            </a>
+        </div>
+    </div>
+
+    <form class="formtext" action="Index.html" id="experience form">
+        <div class="formmaincontainer">
+            <h2>Experience Form</h2>
+            <h4>We'd love to get in touch and learn more about you. So, send us a
+                message and we'll reply as fast as we can.</h4>
+            <fieldset>
+                <label for="name">Name</label>
+                <input class="textfield" type="text" id="name" placeholder="Enter your full name">
+                
+                <label for="DateOfBirth">Date Of Birth</label>
+                <input class="textfield" type="date" id="DateOfBirth">
+
+                <label for="email">E-mail</label>
+                <input class="textfield" type="email" id="email" placeholder="Enter your E-mail">
+
+                <label for="memeberId">Member ID</label>
+                <input class="textfield" type="number" id="memberId" placeholder="What is your memberID ?">
+
+                <label for="list">How Did You Hear About Us?
+                    <select class="textfield" id="list" required>
+                        <option value=""> Search </option>
+                        <option value="social_media">Social Media</option>
+                        <option value="search_engine">Search Engine</option>
+                        <option value="Musify_own_site">Musify Own Site</option>
+                        <option value="advertising">Advertising</option>
+                        <option value="university_website">University Website</option>
+                        <option value="friend">Friend</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>How is our Website?</legend>
+                <label for="excellent"><input id="excellent" value="excellent" type="radio" name="satisfaction">Excellent</label>
+                <label for="better"><input id="better" value="better" type="radio" name="satisfaction">Better</label>
+                <label for="average"><input id="average" value="average" type="radio" name="satisfaction">Average</label>
+                <label for="poor"><input id="poor" value="poor" type="radio" name="satisfaction">Poor</label>
+                <label for="worst"><input id="worst" value="worst" type="radio" name="satisfaction">Worst</label>
+                <p> </p>
+                <legend>Which type of music you listen to most ?</legend>
+                <label for="rock"><input value="rock" type="checkbox" name="genre">Rock</label>
+                <label for="pop"><input  value="pop" type="checkbox" name="genre">Pop</label>
+                <label for="classical"><input value="classical" type="checkbox" name="genre">Classical</label>
+                <label for="jazz"><input value="jazz" type="checkbox" name="genre">Jazz</label>
+                <p> </p>
+                <label>Do you have any suggestions for us ?
+                    <textarea class="textfield" name="suggestions" rows="5" placeholder="Write your suggestions here...."></textarea>                        
+                </label>
+                <p> </p>
+                <label>When can we contact you ?
+                    <input type="time" id="websitetime" placeholder="befor 6:00PM">
+                </label>
+                
+            </fieldset>
+        </div>
+        <button name="submit">Submit</button>
+        <button name="reset">Reset</button>
+    </form>
+    <div class="footercontainer">
+        <footer>
+            &copy;Kushal Patel | contact us: <a href="mailto:kushal.patel@student.sl.on.ca">kushal.patel@student.sl.on.ca</a> | <a id="TodaysDate"></a>
+    </footer>
+   </div>
+</body>
+</html>

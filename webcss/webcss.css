@@ -1,0 +1,181 @@
+/* Kushal Patel */
+
+body{
+    font-family: "Comic sans MS", "Arial", "serif";
+    font-size: 1em;
+    color: #061531;
+    background-color: #8be2ee;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+ol{
+    list-style-type: upper-alpha;
+}
+
+ul{
+    list-style-type: square;
+}
+
+table{
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+a:link{
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+a:visited{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #061531;
+    text-decoration: none;
+    opacity: 0.5;
+}
+
+a:active{
+    color:#ffffff;
+    text-decoration: underline;
+}
+
+.navflexcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+    padding: 2em;
+    background-color: #427ff0;
+    text-shadow: 0.2em 0.2em 0 rgba(0, 0, 0, 0.2);
+}
+.navflexitem{
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+    padding-top: 0.3em;
+}
+
+.extra_space{
+    flex: 3;
+}
+
+
+
+.maincontainer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #427ff0;
+}
+
+.highlight{
+    font-style: italic;
+    color:#ffffff;
+}
+
+.footercontainer{
+    font-size: medium;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    color:#061531;
+    background-color: #427ff0;
+    padding: 1em;
+    text-align: center;
+    
+}
+
+.formmaincontainer{
+    background-color: #00d5ff;
+}
+
+.imagespagemainflexcontainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+figure{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content_box{
+    background-color: #00ffff;
+    border: 0.2em solid #061531;   
+}
+
+.images{
+    margin-left: 25em;
+}
+
+.albumimg{
+    margin-top: 0.2em;
+    margin-left: 0.2em;
+}
+
+
+.imagespagemainflexitem{
+    
+    margin: 2em;
+    padding: 2;
+    
+}
+
+fieldset{
+    border: 0.1em solid #061531 ;
+}
+
+label{
+    font-style: italic;
+    
+}
+
+legend{
+    
+    font-style: italic;
+}
+
+
+.textfield{
+    display: block;
+    width: 50%;
+    height: 35px;
+    border: 2px solid var(--border-color);
+    max-width: 50em;
+    border-radius: 5px;
+    
+}
+
+input[type = "text"]{
+    color:#00153d;
+    
+}
+
+input[type = "email"]{
+    color:#f62486;
+}
+
+input[type = "number"]{
+    color: #ba0606;
+}
+
+input[type="date"]{
+    max-width: 20em;
+}
+
+
+
+textarea{
+    color: #427ff0;
+}

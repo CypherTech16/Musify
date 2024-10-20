@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<!-- Kushal Patel. -->
+<html lang=""en">
+<head>
+<meta charset = "UTF-8">
+<title>Tables</title>
+<link rel="stylesheet" type="text/css" href="./webcss/webcss.css">
+<script type = "text/javascript" src = "./js/webjs.js"></script>
+</head>    
+<body onload="showDate()">
+    <h1>Tables</h1>
+    <div class="navflexcontainer">
+        <div class="navflexitem"><a href="Index.html">Home</a></div>
+        <div class="navflexitem"> <a href="genre.html">Genre</a></div>
+        <div class="navflexitem"><a href="tables.html">Tables</a></div>
+        <div class="navflexitem"><a href="images.html">Images</a></div>
+        <div class="navflexitem"><a href="forms.html">Forms</a></div>
+        <div class="extra_space">&nbsp;&nbsp;&nbsp;&nbsp;</div>
+        <div class="navflexitem">
+            <a target="_blank" href="https://twitter.com/">
+            <img src="./imgs/img11.webp" height="20" width="20" alt="twitter">
+            </a>
+        </div>
+        <div class="navflexitem">
+            <a target="_blank" href="https://www.facebook.com/">
+                <img src="./imgs/img12.png" height="20" width="20" alt="facebook">
+            </a>
+        </div>
+    </div>
+
+    <p> </p>
+    <div class="maincontainer">
+        <h2>Latest Albums</h2>
+        <table border="1" id="changeTable">
+                <tr>
+                    <th>Song Title</th>
+                    <th>Artist</th>
+                    <th>Length</th>
+                    <th colspan="2">Additional Info</th>
+                </tr>
+                <tr>
+                    <td>Starboy</td>
+                    <td>The Weekend</td>
+                    <td>5:14</td>
+                    <td rowspan="2">Features Guest Appearances</td>
+                    <td>Genre: Pop</td>
+                </tr>
+                <tr>
+                    <td>As it Was</td>
+                    <td>Harry Styles</td>
+                    <td>3:50</td>
+                    <td>Genre: Classical</td>
+                </tr>
+                <tr>
+                    <td>In The Name Of Love</td>
+                    <td>Martin Garrix</td>
+                    <td>4:15</td>
+                    <td colspan="2">Exclusive Limited Edition</td>
+                </tr>
+                <tr>
+                    <td>SuperHeros</td>
+                    <td>Metro Boomin</td>
+                    <td>4:12</td>
+                    <td rowspan="2">Featuring Guest Artists</td>
+                    <td>Genre: Electronic</td>
+                </tr>
+                <tr>
+                    <td>Hero</td>
+                    <td>Alan Walkar</td>
+                    <td>3:45</td>
+                    <td>Genre: Jazz</td>
+                </tr>
+                <tr>
+                    <td>Hymn of the Weekend</td>
+                    <td>ColdPlay</td>
+                    <td>4:15</td>
+                    <td>Recorded In India</td>
+                    <td>Genre: Pop Rock</td>
+                </tr>
+        </table>
+        <p> </p>
+    </div>
+    <div class="colorchange">
+        <label for="button"></label>
+        <button class="colorbutton" id="button" onclick="changetablecolor()">Change Color of your Table</button>
+    </div>
+
+    <div class="footercontainer">
+        <footer>
+            &copy;Kushal Patel | contact us: <a href="mailto:kushal.patel@student.sl.on.ca">kushal.patel@student.sl.on.ca</a> | <a id="TodaysDate"></a>     
+    </footer>
+   </div>
+</body>
+</html>
